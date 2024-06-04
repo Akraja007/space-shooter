@@ -1,0 +1,42 @@
+{
+  "__version__": "1.0.6",
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Ship"
+      },
+      {
+        "index": 2,
+        "name": "boundary"
+      },
+      {
+        "index": 3,
+        "name": "bullet"
+      },
+      {
+        "index": 4,
+        "name": "coin"
+      },
+      {
+        "index": 5,
+        "name": "shield"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 42,
+      "1": 21,
+      "2": 34,
+      "3": 1,
+      "4": 34,
+      "5": 21
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "general": {
+    "designResolution": {
+      "width": 960,
+      "height": 540
+    }
+  }
+}
